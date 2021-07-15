@@ -21,7 +21,7 @@ spec:
         app: python-helloworld
     spec:
       containers:
-      - image: 
+      - image: eebru/python-helloworld:latest
         imagePullPolicy: IfNotPresent
         name: python-helloworld
         resources:
